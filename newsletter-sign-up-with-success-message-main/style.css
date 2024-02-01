@@ -84,3 +84,13 @@ body p{
     font-weight: 700;
     font-size: 16px;
 }
+
+.btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(238, 68, 99), rgb(245, 112, 41));
+    border: none;
+}
+
+.input-email:hover{
+    cursor: pointer;
+}

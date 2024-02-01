@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+    background-color:hsl(234, 29%, 20%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body p{
+    font-size: 16px;
+}
+
+.card{
+    background-color: white;
+    padding: 40px;
+    border-radius: 40px;
+    width: 900px;
+}
+
+.img1{
+    float: right;    
+}
+
+.heading{
+    margin-top: 50px;
+    font-size: 60px;
+    color: hsl(235, 18%, 26%);
+    margin-bottom: 25px;
+}
+
+.description{
+    margin-bottom: 35px;
+    line-height: 25px;
+    font-weight: 400;
+    
+}
+
+.checks{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.checks img{
+    margin-right: 15px;
+}
+
+.checks img{
+    width: 20px;
+    
+}
+
+.email{
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: hsl(235, 18%, 26%);
+    font-weight: 700;
+}
+.input-email{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    width: 350px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid grey;
+}
+
+.btn{
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    border-radius: 8px;
+    background-color:hsl(234, 29%, 20%) ;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
